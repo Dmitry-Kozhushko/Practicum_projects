@@ -16,6 +16,8 @@
 
 ## **[Расчет метрик в SQL](https://github.com/Dmitry-Kozhushko/Practicum_projects/blob/main/расчет%20метрик%20в%20SQL)**
 
+**Задача** — с помощью SQL провести анализ пользовательской активности и метрик продукта: MAU авторов и произведений, удержание пользователей (Retention), LTV и средняя выручка за час прослушивания.
+
 ## **[Проверка гипотезы в Python и составление аналитической записки](https://github.com/Dmitry-Kozhushko/Practicum_projects/blob/main/Проверка%20гипотезы%20в%20Python%20и%20составление%20аналитической%20записки.ipynb)**
 
 ## **[Анализ результатов A/B-тестирования](https://github.com/Dmitry-Kozhushko/Practicum_projects/blob/main/Анализ%20результатов%20AB-тестирования.ipynb)**

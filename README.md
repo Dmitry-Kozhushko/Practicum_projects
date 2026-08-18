@@ -14,3 +14,8 @@
 
 **Рекомендации:** фокусироваться на интернет-секторах, использовать venture как основной инструмент, seed и angel — для ранних стадий с повышенными рисками.
 
+## **[Расчет метрик в SQL](https://github.com/Dmitry-Kozhushko/Practicum_projects/blob/main/расчет%20метрик%20в%20SQL)**
+
+## **[Проверка гипотезы в Python и составление аналитической записки](https://github.com/Dmitry-Kozhushko/Practicum_projects/blob/main/Проверка%20гипотезы%20в%20Python%20и%20составление%20аналитической%20записки.ipynb)**
+
+## **[Анализ результатов A/B-тестирования](https://github.com/Dmitry-Kozhushko/Practicum_projects/blob/main/Анализ%20результатов%20AB-тестирования.ipynb)**

@@ -126,7 +126,23 @@ SELECT
 FROM monthly_stats
 ORDER BY month;
 
-
+-- Соединение таблиц для последующего анализа
+SELECT 
+    g.usage_geo_id_name AS city,
+    au.puid,
+    SUM(au.hours) AS hours
+FROM bookmate.audition au
+INNER JOIN bookmate.geo g 
+    ON au.usage_geo_id = g.usage_geo_id
+WHERE g.usage_geo_id_name IN ('Москва', 'Санкт-Петербург')
+  AND au.msk_business_dt_str >= '2024-09-01'
+  AND au.msk_business_dt_str <= '2024-12-11'
+GROUP BY 
+    g.usage_geo_id_name,
+    au.puid
+ORDER BY 
+    city, 
+    hours DESC;
 
 
 
